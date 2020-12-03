@@ -1,0 +1,206 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical"
+            tools:context=".Judo">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:autofillHints="Player 1"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/player_1"
+                android:inputType="text"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/person_a_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/_0"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="56sp" />
+
+            <Button
+                android:id="@+id/ipponA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/ippon1"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/wazaariA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/waza_ari"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/yukoA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/yuko"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/knockOutA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/knockout"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:orientation="vertical"
+            tools:context=".Judo">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:autofillHints="Player 2"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/player_2"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="?android:attr/textColorHintInverse"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/person_b_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/_0"
+                android:textColor="@color/white"
+                android:textSize="56sp" />
+
+            <Button
+                android:id="@+id/ipponB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/ippon1"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/wazaariB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/waza_ari"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/yukoB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/yuko"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/knockOutB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/knockout"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resetBoth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#F9AA33"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/reset"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+</RelativeLayout>

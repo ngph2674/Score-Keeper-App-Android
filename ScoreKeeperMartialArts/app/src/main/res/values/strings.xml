@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Score Keeper Martial Arts</string>
+    <string name="reset">Reset</string>
+    <string name="player_1">Player 1</string>
+    <string name="_0" tools:ignore="DuplicateDefinition">0</string>
+    <string name="ippon" tools:ignore="DuplicateDefinition">ippon</string>
+    <string name="waza_ari">waza_ari</string>
+    <string name="yuko">yuko</string>
+    <string name="hsk">Hsk</string>
+    <string name="player_2">Player 2</string>
+    <string name="ippon1" tools:ignore="DuplicateDefinition">ippon</string>
+    <string name="waza_ari1" tools:ignore="DuplicateDefinition">waza_ari</string>
+    <string name="yuko1" tools:ignore="DuplicateDefinition">yuko</string>
+    <string name="hsk1" tools:ignore="DuplicateDefinition">Hsk</string>
+    <string name="knockout">KnockOut</string>
+    <string name="basic_attack">Basic Attack</string>
+    <string name="spinning_kick">Spinning Kick</string>
+    <string name="knockout1" tools:ignore="DuplicateDefinition">KnockOut</string>
+    <string name="knockout2">Knockout</string>
+    <string name="penalty">Penalty</string>
+    <string name="penalty1" tools:ignore="DuplicateDefinition">Penalty</string>
+    <string name="head_kick">Head Kick</string>
+    <string name="win">You Win!</string>
+    <string name="win1">You Win!</string>
+    <string name="win2" tools:ignore="DuplicateDefinition">You Win!</string>
+    <string name="win3" tools:ignore="DuplicateDefinition">You Win!</string>
+    <string name="win4" tools:ignore="DuplicateDefinition">You Win!</string>
+    <string name="win5" tools:ignore="DuplicateDefinition">You Win!</string>
+    <string name="sd">Sd</string>
+    <string name="sd1">Sd</string>
+    <string name="_0i">0</string>
+    <string name="basic_attack1">Basic Attack</string>
+    <string name="spinning_kick1">Spinning Kick</string>
+    <string name="head_kick1">Head Kick</string>
+    <string name="martial_arts">Martial Arts</string>
+    <string name="score_keeper">Score Keeper</string>
+    <string name="martialartsimage">martialartsimage</string>
+</resources>

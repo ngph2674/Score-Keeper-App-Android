@@ -1,0 +1,234 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#356859"
+            android:orientation="vertical"
+            tools:context=".Judo">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:autofillHints="Player 1"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/player_1"
+                android:inputType="text"
+                android:textColor="#FFFBE6"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/person_a_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/_0"
+                android:textColor="#FFFBE6"
+                android:textSize="56sp" />
+
+            <Button
+                android:id="@+id/basicA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#FFFBE6"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/basic_attack"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/spinningA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#FFFBE6"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/spinning_kick"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/headA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#FFFBE6"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/head_kick"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/penaltyA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#FFFBE6"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/penalty"
+                android:textColor="#FD5523"
+                android:textSize="14sp"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/knockOutA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#FFFBE6"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/knockout"
+                android:textColor="#FD5523"
+                android:textSize="14sp"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFBE6"
+            android:orientation="vertical"
+            tools:context=".Judo">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:autofillHints="Player 2"
+                android:fontFamily="sans-serif-medium"
+                android:hint="@string/player_2"
+                android:inputType="text"
+                android:textColor="#356859"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/person_b_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/_0"
+                android:textColor="#356859"
+                android:textSize="56sp" />
+
+            <Button
+                android:id="@+id/basicB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#356859"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/basic_attack1"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/spinningB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#356859"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/spinning_kick1"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/headB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#356859"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/head_kick1"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/penaltyB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#356859"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/penalty"
+                android:textColor="#FD5523"
+                android:textSize="14sp"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/knockOutB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:backgroundTint="#356859"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/knockout2"
+                android:textColor="#FD5523"
+                back
+                android:textSize="14sp"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resetBoth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#FD5523"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/reset"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+</RelativeLayout>

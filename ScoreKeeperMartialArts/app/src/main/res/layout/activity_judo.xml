@@ -1,0 +1,264 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F9AA33"
+            android:orientation="vertical"
+            tools:context=".Judo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:autofillHints="Player 1"
+                    android:fontFamily="sans-serif-medium"
+                    android:hint="@string/player_1"
+                    android:inputType="text"
+                    android:textColor="#232F34"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/person_a_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="40dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/_0"
+                    android:textColor="#232F34"
+                    android:textSize="56sp" />
+
+                <Button
+                    android:id="@+id/ipponA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#232F34"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/ippon1"
+                    android:textColor="#F9AA33"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/wazaariA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#232F34"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/waza_ari"
+                    android:textColor="#F9AA33"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/yukoA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#232F34"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/yuko"
+                    android:textColor="#F9AA33"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="24dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/hansokuA"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#232F34"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/hsk"
+                    android:textColor="#F9AA33"
+                    android:textSize="14sp"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/shidoA"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#232F34"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/sd1"
+                    android:textColor="#F9AA33"
+                    android:textSize="14sp"
+                    tools:ignore="ButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#232F34"
+            android:orientation="vertical"
+            tools:context=".Judo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_margin="10dp"
+                    android:autofillHints="Player 2"
+                    android:fontFamily="sans-serif-medium"
+                    android:hint="@string/player_2"
+                    android:inputType="text"
+                    android:textColor="#F9AA33"
+                    android:textColorHint="@color/material_on_primary_emphasis_high_type"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/person_b_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="40dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/_0i"
+                    android:textColor="#F9AA33"
+                    android:textSize="56sp"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/ipponB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#F9AA33"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/ippon1"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/wazaariB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#F9AA33"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/waza_ari"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/yukoB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTint="#F9AA33"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/yuko"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="24dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/hansokuB"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F9AA33"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/hsk"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/shidoB"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F9AA33"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/sd"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="ButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resetBoth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/reset"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+</RelativeLayout>
